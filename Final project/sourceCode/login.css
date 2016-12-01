@@ -1,0 +1,238 @@
+body
+{
+	background-color: #272822;
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+
+#h1{
+	text-align: center;
+	font-size:60px;
+	font-family: Calibri;
+	animation: cssload-breathe 2s ease;
+		-o-animation: cssload-breathe 2s ease;
+			-webkit-animation: cssload-breathe 2s ease;
+		-moz-animation: cssload-breathe 2s ease;
+	
+
+
+}
+.dol
+{
+color: #CCDF32;
+}
+#s1{
+color:#EFB571;
+}
+#s2{
+
+	color:#79ABFF;
+	
+
+	
+
+}
+#s3{
+	color:hotpink;
+	
+}
+.u
+{
+	padding-top: 55px;
+	padding-bottom: 55px;
+	text-align: center;
+	color: #EFB571;
+	font-size: 20px;
+	font-family: Calibri;
+}
+
+#f1{
+	padding-top: 20px;
+	/*position : center;*/
+	text-align: center;
+}
+
+.i1
+{
+	position: center; 
+	width: 175px;
+	padding-top:5px;
+	padding-bottom: 5px;
+margin-bottom: 10px;
+margin-top: 10px;
+border: 2px;
+background-color: #D8D8D8;
+
+border-radius: 10px;
+}
+
+.i1:hover
+{
+	position: center;
+	border-radius: 10px;
+	border: 2px solid #79ABFF;
+	
+	
+}
+@keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: hotpink;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	80% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	
+	}
+	100%{
+		font-size:75px;
+		color:hotpink;
+	}
+}
+@-o-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+
+}
+
+
+
+@-webkit-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+
+@-moz-keyframes cssload-breathe {
+	0% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+	30% {
+		color: transparent;
+	}
+	50% {
+		letter-spacing: 97px;
+		font-size: 0;
+		text-shadow: 0 0 6px white;
+	}
+	60% {
+		color: transparent;
+	}
+	100% {
+		letter-spacing: 0;
+		text-shadow: 0 0 1px white;
+	}
+}
+
+
+@-webkit-keyframes example {
+    from {background-color: white;}
+    to {background-color: #272822;}
+}
+
+
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: #272822;}
+}
+#but1
+{
+  margin:10px;
+	border: 10px;
+	width:100px;
+	padding: 10px;
+	border-radius:15px;
+background-color: #EFB571;
+color: #272822;
+font:bold;
+}
+#but1:hover
+{
+	margin:10px;
+	border: 10px;
+	width:100px;
+	text-align: center;
+	padding: 10px;
+	border-radius:15px;
+background-color:#D8D8D8;
+color:  #EFB571;
+font:bold;
+}
+
+#q
+{
+	color:#79ABFF;
+	font-size: 18px;
+	font-family: Verdana;
+	
+	text-decoration: underline;
+
+}
+
+#ntau
+{
+	color:white;
+	font-size: 15px;
+	font-family: Verdana;
+} 
+#hreg1
+{
+	
+	text-align: center;
+	color: hotpink;
+	font-size: 25px;
+	font-family: Calibri;
+}
+
+
+
+
+
